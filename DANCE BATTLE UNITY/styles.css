@@ -1,0 +1,103 @@
+/* リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.e2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+.ma1{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.ma{
+margin-top: 0px;
+padding-top: 0px;
+}
+.ku{
+  margin-left: 85px;
+}
+.en{
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.ento{
+  margin-top: -30px;
+  margin-bottom: 100px;
+  padding-top: 0px;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
